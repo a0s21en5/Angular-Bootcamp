@@ -3,7 +3,7 @@
 # Install Angular
 Angular requires a current, active LTS or maintenance LTS version of Node.js and NPM.
 
-# check Version of Node.js
+# Check Version of Node.js
 ```node -v```
 
 # Update NPM
@@ -23,7 +23,7 @@ install the Angular CLI globally using NPM
 >* -g indicates global.
 >* @latest is specifies to install the latest verion of angular CLI.
 
-# check Version of Angular version
+# Check Version of Angular version
 ```ng --version```
 
 # Use command to see all the CLI commands
