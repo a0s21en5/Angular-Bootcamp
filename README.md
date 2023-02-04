@@ -24,10 +24,10 @@ install the Angular CLI globally using NPM
 >* @latest is specifies to install the latest verion of angular CLI.
 
 # check Version of Angular version
-> ```ng --version```
+```ng --version```
 
-> ```ng help```
-Use command to see all the CLI commands
+# Use command to see all the CLI commands
+```ng help```
 
 # Note
 Angular CLI use Package.json in your application to install all the necessary libraries and packages for your application, including the required Angular framework libraries.
@@ -46,3 +46,4 @@ code .
 
 Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
 > ```ng serve -o```
+
