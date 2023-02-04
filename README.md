@@ -47,3 +47,20 @@ code .
 Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
 > ```ng serve -o```
 
+>* Angular has MVC Based Architecture for application development.
+>* we can use it with NPM and without NPM 
+
+> File Structure
+> * package.json
+> Dependencies, Dev-Dependencies
+
+> * node_module
+> * src
+> * environments
+> * assets
+> * index.html
+> * style.css
+> * main.js
+> * app
+> * modules
+> * components
