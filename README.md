@@ -68,10 +68,10 @@ Use Angular CLI command to build an application. The -o indicates to open it aut
 # Interpolation in Angular
 Interpolation is used for one-way data binding in Angular.
 Interpolation refers to embedding expressions into marked up text. By default, interpolation uses the double curly braces {{ and }} as delimiters.
-> ```currentCustomer = 'Maria';```
+>* ```currentCustomer = 'Maria';```
 
-> ```<h3>Current customer: {{ currentCustomer }}</h3>```
+>* ```<h3>Current customer: {{ currentCustomer }}</h3>```
 Angular replaces currentCustomer with the string value of the corresponding component property. In this case, the value is Maria.
 
-> ```<p>{{title}}</p>```
-> ```<div><img alt="item" src="{{itemImageUrl}}"></div>```
+>* ```<p>{{title}}</p>```
+>* ```<div><img alt="item" src="{{itemImageUrl}}"></div>```
