@@ -26,3 +26,6 @@ install the Angular CLI globally using NPM
 # check Version of Angular version
 > ```ng --version```
 
+> ```ng help```
+
+>* Use command to see all the CLI commands
