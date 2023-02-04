@@ -60,7 +60,7 @@ Use Angular CLI command to build an application. The -o indicates to open it aut
 > * assets
 > * index.html
 > * style.css
-> * main.js
+> * main.ts
 > * app
 > * modules
 > * components
