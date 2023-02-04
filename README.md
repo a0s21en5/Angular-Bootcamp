@@ -7,10 +7,10 @@ Angular requires a current, active LTS or maintenance LTS version of Node.js and
 ```node -v```
 
 # Update NPM
->* Angular requires NPM or later. Check the NPM version
+Angular requires NPM or later. Check the NPM version
 > ```npm -v```
 
->* if you don't have the latest version of NPM, then update
+if you don't have the latest version of NPM, then update
 > ```npm install -g npm```
 
 # Install Angular CLI
