@@ -17,8 +17,8 @@ if you don't have the latest version of NPM, then update
 Angular provides many libraries and packages for application development. You can install libraries required for your application using Angular CLI (Command Line Interface). Angular CLI is also used to generate, build, run, and deploy Angular application.
 
 install the Angular CLI globally using NPM
-> ```npm install -g @angular/cli```
-> ```npm install -g @angular/cli@latest```
+>* ```npm install -g @angular/cli```
+>* ```npm install -g @angular/cli@latest```
 
 >* -g indicates global.
 >* @latest is specifies to install the latest verion of angular CLI.
@@ -46,4 +46,3 @@ code .
 
 Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
 > ```ng serve -o```
-
