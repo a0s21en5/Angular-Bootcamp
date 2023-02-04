@@ -27,5 +27,22 @@ install the Angular CLI globally using NPM
 > ```ng --version```
 
 > ```ng help```
+Use command to see all the CLI commands
 
->* Use command to see all the CLI commands
+# Note
+Angular CLI use Package.json in your application to install all the necessary libraries and packages for your application, including the required Angular framework libraries.
+
+# Create Angular Application
+```
+ng new <project name>
+```
+
+> To open this project in VS Code, navigate to the project folder in the terminal/command window and type
+```
+code .
+```
+
+# Run Angular Application
+
+Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
+> ```ng serve -o```
