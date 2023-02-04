@@ -46,3 +46,4 @@ code .
 
 Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
 > ```ng serve -o```
+
