@@ -75,3 +75,5 @@ Angular replaces currentCustomer with the string value of the corresponding comp
 
 >* ```<p>{{title}}</p>```
 >* ```<div><img alt="item" src="{{itemImageUrl}}"></div>```
+
+# Angular Components
