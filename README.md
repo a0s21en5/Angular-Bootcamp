@@ -94,3 +94,12 @@ Angular Component = HTML Template + Component Class + Component Metadata
 
 > ### Generate Angular Component using Angular CLI
 >```ng generate component <component name>```
+
+> selector	
+>* The component's CSS element selector.
+>
+templateUrl	
+>* The location of the component's template file.
+
+>styleUrls	
+>* The location of the component's private CSS styles.
