@@ -83,14 +83,14 @@ an interactive web page is made of HTML, CSS, and JavaScript. Angular component 
 
 Angular Component = HTML Template + Component Class + Component Metadata
 
-> HTML Template
+>### HTML Template
 >* HTML template is nothing but a regular HTML code with additional Angular specific syntax to communicate with the component class.
 
-> Class
+>### Class
 >* a component class is a TypeScript class that includes properties and methods. Properties store data and methods include the logic for the component. Eventually, this class will be compiled into JavaScript.
 
-> Metadata
+>### Metadata
 >* Metadata is some extra data for a component used by Angular API to execute the component, such as the location of HTML and CSS files of the component, selector, providers, etc.
 
 > ### Generate Angular Component using Angular CLI
->
+>```ng generate component <component name>```
