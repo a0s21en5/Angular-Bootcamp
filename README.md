@@ -97,9 +97,12 @@ Angular Component = HTML Template + Component Class + Component Metadata
 
 > selector	
 >* The component's CSS element selector.
->
-templateUrl	
+
+>templateUrl	
 >* The location of the component's template file.
 
 >styleUrls	
 >* The location of the component's private CSS styles.
+
+# Module
+module is a mechanism to group ***components***, ***directives***, ***pipes*** and ***services*** that are related.
