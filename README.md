@@ -106,3 +106,6 @@ Angular Component = HTML Template + Component Class + Component Metadata
 
 # Module
 module is a mechanism to group ***components***, ***directives***, ***pipes*** and ***services*** that are related.
+```
+ng g m
+```
