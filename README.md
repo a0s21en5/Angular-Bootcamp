@@ -109,9 +109,7 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
 ng generate mmodule
 ```
-ng 
-```
 # Service
 ```
-  ng g service serviceName
+ng g service serviceName
 ```
