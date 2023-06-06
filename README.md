@@ -217,3 +217,8 @@ handleButtonClick() {
   console.log(this.inputValue);
 }
 ```
+
+# Get TextBox Value
+
+>* Get TextBox Value with Value Change
+>* Get TextBox Value with Value Click
