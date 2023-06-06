@@ -111,5 +111,5 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
 # Service
 ```
-ng g service serviceName
+  ng generate service <service Name>
 ```
