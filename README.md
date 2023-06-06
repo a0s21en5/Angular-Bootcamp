@@ -126,3 +126,18 @@ handleButtonClick() {
   // Handle the button click event here
 }
 ```
+
+> Keyup
+>* The keyup event is triggered when a user releases a key on the keyboard. It can be used to perform actions based on the key that was released.
+
+```
+<input (keyup)="handleKeyUp($event)">
+```
+
+```
+handleKeyUp(event: KeyboardEvent) {
+  // Handle the keyup event here
+  console.log(event.key);
+}
+
+```
