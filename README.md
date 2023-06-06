@@ -113,3 +113,4 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
   ng generate service <service Name>
 ```
+# Call Function | Click Event
