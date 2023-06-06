@@ -236,3 +236,8 @@ GetName(data: string) {
   this.current = data
   }
 ```
+
+# Property Binding In Angular
+Property binding in Angular is a mechanism that allows you to set the value of an HTML element property based on the value of a component's property. It is one of the fundamental concepts in Angular for achieving data binding.
+
+
