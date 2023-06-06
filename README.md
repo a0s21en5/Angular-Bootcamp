@@ -221,4 +221,18 @@ handleButtonClick() {
 # Get TextBox Value
 
 >* Get TextBox Value with Value Change
->* Get TextBox Value with Value Click
+
+>* __Get TextBox Value with Value Click__
+```
+<input type="text" #name>
+<button (click)="GetName(name.value)">Get Name</button>
+<h1>{{current}}</h1>
+```
+
+```
+current = "";
+GetName(data: string) {
+  console.warn(data);
+  this.current = data
+  }
+```
