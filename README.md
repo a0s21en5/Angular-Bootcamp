@@ -240,4 +240,20 @@ GetName(data: string) {
 # Property Binding In Angular
 Property binding in Angular is a mechanism that allows you to set the value of an HTML element property based on the value of a component's property. It is one of the fundamental concepts in Angular for achieving data binding.
 
+# Conditional Statement In Angular
 
+```
+<h1 *ngIf="isUserLoggedIn == 'true'; then ifBlock else elseBlock"></h1>
+
+<ng-template #ifBlock>
+    <p>Welcome, User!</p>
+</ng-template>
+
+<ng-template #elseBlock>
+    <p>Please log in to continue.</p>
+</ng-template>
+```
+
+```
+  isUserLoggedIn = 'true';
+```
