@@ -257,3 +257,5 @@ Property binding in Angular is a mechanism that allows you to set the value of a
 ```
   isUserLoggedIn = 'true';
 ```
+
+# Switch Case In Angular
