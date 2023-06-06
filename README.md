@@ -115,7 +115,7 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
 # Events in Angular
 
-> Click
+> __Click__
 >* The click event is triggered when a user clicks on an element. It can be used to handle button clicks, link clicks, or any other element that supports the click event.
 ```
 <button (click)="handleButtonClick()">Click me</button>
@@ -127,7 +127,7 @@ handleButtonClick() {
 }
 ```
 
-> Keyup
+> __Keyup__
 >* The keyup event is triggered when a user releases a key on the keyboard. It can be used to perform actions based on the key that was released.
 
 ```
@@ -141,7 +141,7 @@ handleKeyUp(event: KeyboardEvent) {
 }
 ```
 
-> Keyup with enter and space
+> __Keyup with enter and space__
 >* To specifically handle the keyup event with the Enter key or the Spacebar, you can use additional conditions in the event handler.
 ```
 <input (keyup.enter)="handleEnterKey()">
@@ -159,7 +159,7 @@ handleSpaceKey() {
 }
 ```
 
-> Keydown
+> __Keydown__
 >* The keydown event is triggered when a user presses a key on the keyboard. It can be used to perform actions while a key is being held down.
 ```
 <input (keydown)="handleKeyDown($event)">
@@ -173,7 +173,7 @@ handleKeyDown(event: KeyboardEvent) {
 
 
 
-> Blur
+> __Blur__
 >* The blur event is triggered when an element loses focus. It can be used to perform actions when a user moves away from an input field or any other focusable element.
 ```
 <input (blur)="handleBlur()">
@@ -186,7 +186,7 @@ handleBlur() {
 ```
 
 
-> Mouseover and Mouseleave
+> __Mouseover and Mouseleave__
 >* The mouseover event is triggered when a user moves the mouse over an element, and the mouseleave event is triggered when the mouse moves away from the element.
 ```
 <div (mouseover)="handleMouseOver()" (mouseleave)="handleMouseLeave()"></div>
@@ -203,7 +203,7 @@ handleMouseLeave() {
 ```
 
 
-> Get Values on Textbox
+> __Get Values on Textbox__
 >* To retrieve the value of a textbox or input field, you can use the ngModel directive with two-way binding or access the element's value using Angular's ViewChild decorator.
 ```
 <input [(ngModel)]="inputValue">
