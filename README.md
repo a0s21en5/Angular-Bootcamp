@@ -113,4 +113,16 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
   ng generate service <service Name>
 ```
-# Call Function | Click Event
+# Events in Angular
+
+> Click
+>* The click event is triggered when a user clicks on an element. It can be used to handle button clicks, link clicks, or any other element that supports the click event.
+```
+<button (click)="handleButtonClick()">Click me</button>
+```
+
+```
+handleButtonClick() {
+  // Handle the button click event here
+}
+```
