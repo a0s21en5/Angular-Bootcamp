@@ -139,5 +139,81 @@ handleKeyUp(event: KeyboardEvent) {
   // Handle the keyup event here
   console.log(event.key);
 }
+```
 
+> Keyup with enter and space
+>* To specifically handle the keyup event with the Enter key or the Spacebar, you can use additional conditions in the event handler.
+```
+<input (keyup.enter)="handleEnterKey()">
+<input (keyup.space)="handleSpaceKey()">
+
+```
+
+```
+handleEnterKey() {
+  // Handle the Enter keyup event here
+}
+
+handleSpaceKey() {
+  // Handle the Space keyup event here
+}
+```
+
+> Keydown
+>* The keydown event is triggered when a user presses a key on the keyboard. It can be used to perform actions while a key is being held down.
+```
+<input (keydown)="handleKeyDown($event)">
+```
+
+```
+handleKeyDown(event: KeyboardEvent) {
+  // Handle the keydown event here
+}
+```
+
+
+
+> Blur
+>* The blur event is triggered when an element loses focus. It can be used to perform actions when a user moves away from an input field or any other focusable element.
+```
+<input (blur)="handleBlur()">
+```
+
+```
+handleBlur() {
+  // Handle the blur event here
+}
+```
+
+
+> Mouseover and Mouseleave
+>* The mouseover event is triggered when a user moves the mouse over an element, and the mouseleave event is triggered when the mouse moves away from the element.
+```
+<div (mouseover)="handleMouseOver()" (mouseleave)="handleMouseLeave()"></div>
+```
+
+```
+handleMouseOver() {
+  // Handle the mouseover event here
+}
+
+handleMouseLeave() {
+  // Handle the mouseleave event here
+}
+```
+
+
+> Get Values on Textbox
+>* To retrieve the value of a textbox or input field, you can use the ngModel directive with two-way binding or access the element's value using Angular's ViewChild decorator.
+```
+<input [(ngModel)]="inputValue">
+<button (click)="handleButtonClick()">Get Value</button>
+```
+
+```
+inputValue: string;
+
+handleButtonClick() {
+  console.log(this.inputValue);
+}
 ```
