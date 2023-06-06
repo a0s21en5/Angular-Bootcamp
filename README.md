@@ -24,7 +24,7 @@ install the Angular CLI globally using NPM
 >* @latest is specifies to install the latest verion of angular CLI.
 
 # Check Version of Angular version
-```ng --version```
+```ng version```
 
 # Use command to see all the CLI commands
 ```ng help```
@@ -107,7 +107,7 @@ Angular Component = HTML Template + Component Class + Component Metadata
 # Module
 module is a mechanism to group ***components***, ***directives***, ***pipes*** and ***services*** that are related.
 ```
-ng generate mmodule
+  ng generate module <module name>
 ```
 # Service
 ```
