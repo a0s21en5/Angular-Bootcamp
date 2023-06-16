@@ -45,3 +45,8 @@ ng generate service <service Name>
 ```
 ng g class <Class Name>
 ```
+
+> component
+```
+ng generate component <component name>
+```
