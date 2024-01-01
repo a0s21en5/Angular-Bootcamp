@@ -257,20 +257,3 @@ Property binding in Angular is a mechanism that allows you to set the value of a
 ```
   isUserLoggedIn = 'true';
 ```
-
-# Installation for Angular CLI
-* ng add @ng-bootstrap/ng-bootstrap
-
-  
-> Url
-```
-https://ng-bootstrap.github.io/#/getting-started
-``` 
-
-# Angular Material
-* ng add @angular/material
-
-> url
-```
-https://material.angular.io/guide/getting-started
-```
