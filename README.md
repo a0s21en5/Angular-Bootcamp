@@ -30,6 +30,9 @@ install the Angular CLI globally using NPM
 ```nvm -v```
 ```nvm install latest```
 
+# use a specific version at any point
+```nvm use version_name```
+
 # Use command to see all the CLI commands
 ```ng help```
 
