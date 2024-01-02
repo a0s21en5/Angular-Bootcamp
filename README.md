@@ -26,6 +26,10 @@ install the Angular CLI globally using NPM
 # Check Version of Angular version
 ```ng version```
 
+# Check Version of NVM version
+```nvm -v```
+```nvm install latest```
+
 # Use command to see all the CLI commands
 ```ng help```
 
@@ -113,4 +117,3 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
   ng generate service <service Name>
 ```
-
