@@ -1,0 +1,20 @@
+<div class="center-container">
+    <form #BasicForm="ngForm" class="my-form">
+        <input type="text" ngModel name="name" placeholder="Enter Your Name">
+        <br><br>
+        <input type="email" ngModel name="email" placeholder="Enter Your Email">
+        <br><br>
+        <input type="submit" placeholder="Submit Now" (click)="getData(BasicForm.value)">
+    </form>
+
+    <table class="my-table">
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>{{userData.name}}</td>
+            <td>{{userData.email}}</td>
+        </tr>
+    </table>
+</div>
