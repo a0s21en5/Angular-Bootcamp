@@ -1,0 +1,65 @@
+<h1>
+  {{If_else_title}}
+</h1>
+
+<h1 *ngIf="status; then if_block else else_block"></h1>
+
+<ng-template #if_block>
+  If Block
+</ng-template>
+
+<ng-template #else_block>
+  Else Block
+</ng-template>
+
+<h1>
+  {{elseIf_title}}
+</h1>
+
+<ng-template [ngIf]="color=='red'">
+  <h1 style="color: red;">Red Color</h1>
+</ng-template>
+
+<ng-template [ngIf]="color=='green'">
+  <h1 style="color: green;">Green Color</h1>
+</ng-template>
+
+
+
+<h1>
+  {{Switch_title}}
+</h1>
+
+<div [ngSwitch]="color">
+  <h1 *ngSwitchCase="'red'" style="color: red;">Red Color</h1>
+  <h1 *ngSwitchCase="'green'" style="color: green;">Green Color</h1>
+  <h1 *ngSwitchDefault>Unknown Color</h1>
+</div>
+
+<div *ngFor="let data of users">
+  Name is {{data}}
+</div>
+
+<br><br>
+
+<h1>
+  {{For_Loop_title}}
+</h1>
+
+<div *ngFor="let data of usersDetails">
+  <br>
+  Name is {{data.name}} <br>
+  Email is {{data.email}} <br>
+  Phone is {{data.phone}}
+</div>
+
+
+<ul *ngFor="let item of usersDetails">
+  <li>{{item.name}}</li>
+  <li>{{item.email}}</li>
+  <li>{{item.phone}}</li>
+
+  <ul *ngFor="let data of item.account">
+    <li>{{data}}</li>
+  </ul>
+</ul>
