@@ -120,3 +120,29 @@ module is a mechanism to group ***components***, ***directives***, ***pipes*** a
 ```
   ng generate service <service Name>
 ```
+
+# Angular
+
+- npm install -g @angular/cli
+
+- Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+
+# Uninstall Angular CLI
+
+npm uninstall -g @angular/cli
+
+# Clear Cache
+
+npm cache clean --force
+npm cache verify
+
+ng version   
+
+
+-------------------------------
+|ANGULAR| 	NODE.JS				|
+|------------------------------
+|12.2.0|	14.20				|
+--------------------------------
+
+npm install -g @angular/cli@12.2
