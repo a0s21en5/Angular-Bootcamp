@@ -18,6 +18,8 @@ export class AppComponent {
     console.warn(this.TaskList)
   }
 
+  
+
   RemoveTask(id: number) {
     this.TaskList=this.TaskList.filter(item=>item.id!==id)
   }
