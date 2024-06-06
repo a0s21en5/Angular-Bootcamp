@@ -1,93 +1,109 @@
-# Angular
+# Angular Installation Guide
 
-# Install Angular
+## Prerequisites
 
-Angular requires a current, active LTS or maintenance LTS version of Node.js and NPM.
+Before installing Angular, ensure you have the following:
 
-# Check Version of Node.js
+- **Node.js**: Angular requires a current, active LTS or maintenance LTS version of Node.js and NPM.
 
-```node -v```
+## Check Node.js Version
 
-# Update NPM
+To check the version of Node.js installed on your system, run the following command in your terminal:
 
-Angular requires NPM or later. Check the NPM version
-> ```npm -v```
+```bash
+node -v
+```
 
-if you don't have the latest version of NPM, then update
-> ```npm install -g npm```
+## Updating NPM for Angular
+
+Angular requires NPM version or later. To check the current NPM version, run the following command in your terminal:
+
+```bash
+npm install -g npm
+```
+
+## Check the NPM version
+
+```bash
+npm -v
+```
 
 # Install Angular CLI
 
-Angular provides many libraries and packages for application development. You can install libraries required for your application using Angular CLI (Command Line Interface). Angular CLI is also used to generate, build, run, and deploy Angular application.
+Angular provides many libraries and packages for application development. You can install libraries required for your application using Angular CLI (Command Line Interface). Angular CLI is also used to generate, build, run, and deploy Angular applications.
 
-install the Angular CLI globally using NPM
->
->* ```npm install -g @angular/cli```
->* ```npm install -g @angular/cli@latest```
+To install the Angular CLI globally using npm, use one of the following commands:
 
->* -g indicates global.
->* @latest is specifies to install the latest verion of angular CLI.
+- `npm install -g @angular/cli`
+- `npm install -g @angular/cli@latest`
 
-# Check Version of Angular version
+The `-g` flag indicates that the package should be installed globally, making it available as a command-line tool. Adding `@latest` specifies to install the latest version of Angular CLI.
 
-```ng version```
+## Check Angular Version
 
-# Check Version of NVM version
+To check the version of Angular installed, use the following command:
 
-```nvm -v```
-```nvm install latest```
-nvm ls
-
-# use a specific version at any point
-
-```nvm use version_name```
-
-# Use command to see all the CLI commands
-
-```ng help```
-
-# Note
-
-Angular CLI use Package.json in your application to install all the necessary libraries and packages for your application, including the required Angular framework libraries.
-
-# Create Angular Application
-
-```
-ng new <project name>
+```bash
+ng version
 ```
 
-> To open this project in VS Code, navigate to the project folder in the terminal/command window and type
+## Install a Specific Angular Version
 
+To install a specific version of Angular, you can use npm and specify the version you want to install.
+
+```bash
+npm install -g @angular/cli@12.2
 ```
-code .
-```
 
-# Run Angular Application
+## Uninstall Angular CLI
 
-Use Angular CLI command to build an application. The -o indicates to open it automatically in the default browser.
-> ```ng serve -o```
+To uninstall Angular CLI globally, run the following command in your terminal:
 
->* Angular has MVC Based Architecture for application development.
->* we can use it with NPM and without NPM
-
-# to install particular angular version
-
-* npm install -g @angular/cli@12.2
-
-# Uninstall Angular CLI
-
+```bash
 npm uninstall -g @angular/cli
+```
 
-# Clear Cache
+## Clear Cache
 
+```bash
 npm cache clean --force
 npm cache verify
+```
 
-ng version
+## Check and Manage NVM Version
 
--------------------------------
+To check the version of Node Version Manager (NVM) installed:
 
-|ANGULAR|  NODE.JS    |
-|------------------------------
-|12.2.0| 14.20    |
---------------------------------
+```bash
+nvm -v
+```
+
+## To install the latest version of Node.js using NVM
+
+```bash
+nvm install latest
+```
+
+## To list all installed Node.js versions
+
+```bash
+nvm ls
+```
+
+## To use a specific Node.js version at any point
+
+```bash
+nvm use <version_name>
+```
+
+## To create a new Angular application
+
+```bash
+ng new <project_name>
+```
+
+## To build and serve the Angular application
+
+```bash
+To build and serve the Angular application:
+```
