@@ -55,6 +55,7 @@
 6. To serve the application locally, type:
 
     ```bash
+    
     ng serve
     ```
 
