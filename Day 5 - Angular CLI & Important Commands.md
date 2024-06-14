@@ -18,7 +18,7 @@ To create a new Angular application, run the following command:
 ng new <app-name>
 ```
 
-Replace <app-name> with the desired name of your application.
+Replace "app-name" with the desired name of your application.
 
 ## Generating Components, Services, and more
 

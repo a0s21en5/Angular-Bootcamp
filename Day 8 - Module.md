@@ -18,7 +18,7 @@ Once a module is created, it can be imported and used within other Angular compo
 
 ## Creating a Component Inside a Module in Angular
 
-To create a component inside a module in Angular, you can use the Angular CLI command ng generate component <component-name>. By default, this command generates the component files within the src/app directory. However, if you want to create the component inside a specific module, you can specify the module name along with the component name. For example, to create a component named "login" inside the "user-auth" module, you can use the following command:
+To create a component inside a module in Angular, you can use the Angular CLI command ng generate component "component-name". By default, this command generates the component files within the src/app directory. However, if you want to create the component inside a specific module, you can specify the module name along with the component name. For example, to create a component named "login" inside the "user-auth" module, you can use the following command:
 
 ```bash
 ng generate component user-auth/login
