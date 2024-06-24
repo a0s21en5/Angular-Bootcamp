@@ -1,3 +1,4 @@
+
 # Angular Style Rules
 
 - **Component Style**: Styles scoped to a specific Angular component to prevent conflicts with other components.
