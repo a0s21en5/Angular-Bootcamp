@@ -1,6 +1,7 @@
 
 # Angular Style Rules
 
+
 - **Component Style**: Styles scoped to a specific Angular component to prevent conflicts with other components.
   
 - **Global Style**: CSS styles applied globally throughout the application, usually defined in `styles.css` or `styles.scss`.
