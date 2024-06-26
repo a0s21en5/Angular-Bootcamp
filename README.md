@@ -63,3 +63,11 @@
 ## Day 16
 
 - Multiple condition or else if
+
+## Day 17
+
+- Switch case
+
+## Day 18
+
+- Loop
