@@ -71,3 +71,11 @@
 ## Day 18
 
 - Loop
+
+## Day 19
+
+- Nested Loop
+
+## Day 20
+
+- Day 20 - Style Binding or Dynamic Style
