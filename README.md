@@ -79,3 +79,7 @@
 ## Day 20
 
 - Day 20 - Style Binding or Dynamic Style
+
+## Day 21
+
+- Header
