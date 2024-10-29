@@ -107,3 +107,9 @@ ng new <project_name>
 ```bash
 To build and serve the Angular application:
 ```
+
+## Powershell execution policy
+
+```
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
