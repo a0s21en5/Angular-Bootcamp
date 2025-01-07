@@ -1,85 +1,115 @@
-# The Complete Angular BootCamp
+# Angular Installation Guide
 
-## Day 1
+## Prerequisites
 
-- Introduction
+Before installing Angular, ensure you have the following:
 
-## Day 2
+- **Node.js**: Angular requires a current, active LTS or maintenance LTS version of Node.js and NPM.
 
-- Setup and install
+## Check Node.js Version
 
-## Day 3
+To check the version of Node.js installed on your system, run the following command in your terminal:
 
-- Files and Folder Structure
+```bash
+node -v
+```
 
-## Day 4
+## Updating NPM for Angular
 
-- Interpolation
+Angular requires NPM version or later. To check the current NPM version, run the following command in your terminal:
 
-## Day 5
+```bash
+npm install -g npm
+```
 
-- Angular CLI & Important Commands.md
+## Check the NPM version
 
-## Day 6
+```bash
+npm -v
+```
 
-- Component
+## Install Angular CLI
 
-## Day 7
+Angular provides many libraries and packages for application development. You can install libraries required for your application using Angular CLI (Command Line Interface). Angular CLI is also used to generate, build, run, and deploy Angular applications.
 
-- Component with Inline Style & Template
+To install the Angular CLI globally using npm, use one of the following commands:
 
-## Day 8
+- `npm install -g @angular/cli`
+- `npm install -g @angular/cli@latest`
 
-- Module
+The `-g` flag indicates that the package should be installed globally, making it available as a command-line tool. Adding `@latest` specifies to install the latest version of Angular CLI.
 
-## Day 9
+## Check Angular Version
 
-- Make and Call Function on Button Click
+To check the version of Angular installed, use the following command:
 
-## Day 10
+```bash
+ng version
+```
 
-- Events, Blur, Keyup, Mouseover Etc
+## Install a Specific Angular Version
 
-## Day 11
+To install a specific version of Angular, you can use npm and specify the version you want to install.
 
-- Get Input Box Value and Display
+```bash
+npm install -g @angular/cli@12.2
+```
 
-## Day 12
+## Uninstall Angular CLI
 
-- Counter example
+To uninstall Angular CLI globally, run the following command in your terminal:
 
-## Day 13
+```bash
+npm uninstall -g @angular/cli
+```
 
-- Basic Rule of style
+## Clear Cache
 
-## Day 14
+```bash
+npm cache clean --force
+npm cache verify
+```
 
-- Property Binding Example
+## Check and Manage NVM Version
 
-## Day 15
+To check the version of Node Version Manager (NVM) installed:
 
-- If else condition
+```bash
+nvm -v
+```
 
-## Day 16
+## To install the latest version of Node.js using NVM
 
-- Multiple condition or else if
+```bash
+nvm install latest
+```
 
-## Day 17
+## To list all installed Node.js versions
 
-- Switch case
+```bash
+nvm ls
+```
 
-## Day 18
+## To use a specific Node.js version at any point
 
-- Loop
+```bash
+nvm use <version_name>
+```
 
-## Day 19
+## To create a new Angular application
 
-- Nested Loop
+```bash
+ng new <project_name>
+```
 
-## Day 20
+## To build and serve the Angular application
 
-- Day 20 - Style Binding or Dynamic Style
+```bash
+To build and serve the Angular application:
+```
 
-## Day 21
+## Powershell execution policy
 
-- Header
+```powershell
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+```
